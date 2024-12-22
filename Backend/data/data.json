@@ -1,7 +1,19 @@
 [
   {
     "id": 1,
-    "question": "___________ means the ability to understand a language and use written and spoken language. People like poets, writers, have this category of intelligence.",
+    "question": "The premises (p ∧ q) ∨ r and r → s imply which of the conclusion?",
+    "choices": [
+      "A. p ∨ r",
+      "B. p ∨ s",
+      "C. p ∨ q",
+      "D. q ∨ r",
+      "E. None of the previous"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "___________ means the ability to understand a language and use written and spoken language. People like poets, writers, have this category of intelligence?",
     "choices": [
       "A. Verbal / Linguistic Intelligence",
       "B. Logical / Mathematical Intelligence",
@@ -12,50 +24,38 @@
     "answer": "A"
   },
   {
-    "id": 2,
-    "question": "Machine Learning is the superset that contains AI",
-    "choices": ["A. True", "B. False"],
-    "answer": "B"
-  },
-  {
     "id": 3,
-    "question": "In_____________ there is no way to access the components of an individual sentence.",
-    "choices": [
-      "A. Semantic network",
-      "B. Propositional calculus",
-      "C. Pedicate calculus",
-      "D. Inference rules",
-      "E. None of the previous"
-    ],
-    "answer": "B"
+    "question": "An interpretation of a set of propositions is the assignment of a truth value, either T or F, to each propositional symbol?",
+    "choices": ["A. True", "B. False"],
+    "answer": "A"
   },
   {
     "id": 4,
-    "question": "Goal-driven search is most useful when the initial data are provided, and it is not clear what the goal is",
-    "choices": ["A. True", "B. False"],
-    "answer": "B"
+    "question": "The Application(s) of AI is/are?",
+    "choices": [
+      "A. Gaming",
+      "B. Expert Systems",
+      "C. Vision Systems",
+      "D. NLP",
+      "E. All the previous"
+    ],
+    "answer": "E"
   },
   {
     "id": 5,
-    "question": "In Depth First Search algorithm the open list is a queue",
-    "choices": ["A. True", "B. False"],
-    "answer": "B"
+    "question": "In propositional calculus a sentence is _________ if it holds under every interpretation?",
+    "choices": [
+      "A. satisfiable",
+      "B. unsatisfiable",
+      "C. valid",
+      "D. contradiction",
+      "E. None of the previous"
+    ],
+    "answer": "C"
   },
   {
     "id": 6,
-    "question": "Systems that act and think rationally represent _______",
-    "choices": [
-      "A. week AI",
-      "B. strong AI",
-      "C. irrational AI",
-      "D. Connectionism",
-      "E. None of the previous"
-    ],
-    "answer": "B"
-  },
-  {
-    "id": 7,
-    "question": "Clustering is an examples of ___________",
+    "question": "Clustering is an example of ___________?",
     "choices": [
       "A. unsupervised learning",
       "B. Symbolism",
@@ -66,32 +66,206 @@
     "answer": "A"
   },
   {
-    "id": 8,
-    "question": "_____________is a labeled graph used to describe relations (including properties) of objects, concepts, situations, or actions.",
+    "id": 7,
+    "question": "What rules of inference are used in this argument? 'It is either colder than Himalaya today or the pollution is harmful. It is hotter than Himalaya today. Therefore, the pollution is harmful.'",
     "choices": [
-      "A. Semantic network",
-      "B. Propositional calculus",
-      "C. Pedicate calculus",
+      "A. Conjunction",
+      "B. Modus ponens",
+      "C. Disjunctive syllogism",
+      "D. Hypothetical syllogism",
+      "E. None of the previous"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "An AI agent perceives and acts upon the environment using ___________?",
+    "choices": [
+      "A. Sensors",
+      "B. Actuators",
+      "C. Perceiver",
+      "D. Both sensors and actuators",
+      "E. None of the previous"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 9,
+    "question": "A technique that was developed to determine whether a machine could or couldn't demonstrate the AI known as the_______________?",
+    "choices": [
+      "A. Turing Test",
+      "B. Logarithm",
+      "C. Boolean Algebra",
+      "D. Algorithm",
+      "E. None of the previous"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "Watson is IBM's AI computer system capable of answering questions in natural language?",
+    "choices": ["A. True", "B. False"],
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "question": "One of AI purposes is to use the power of computers to augment human thinking?",
+    "choices": ["A. True", "B. False"],
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "Systems that act and think rationally represent _______?",
+    "choices": [
+      "A. weak AI",
+      "B. strong AI",
+      "C. irrational AI",
+      "D. Connectionism",
+      "E. None of the previous"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "What rule of inference is used in this argument? 'If I go for a balanced diet, then I will be fit. If I will be fit, then I will remain healthy. Therefore, if I go for a balanced diet, then I will remain healthy.'",
+    "choices": [
+      "A. Modus tollens",
+      "B. Modus ponens",
+      "C. Disjunctive syllogism",
+      "D. Hypothetical syllogism",
+      "E. None of the previous"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "question": "Rational agent is the agent that does the right thing (successful agent)?",
+    "choices": ["A. True", "B. False"],
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "question": "Which rule of inference is used in each of these arguments, 'If it rains today, the local office will be closed. The local office is not closed today. Thus, it did not rain today.'",
+    "choices": [
+      "A. Modus tollens",
+      "B. Modus ponens",
+      "C. Unit resolution",
       "D. Inference rules",
       "E. None of the previous"
     ],
     "answer": "A"
   },
   {
-    "id": 9,
-    "question": "An interpretation of a set of propositions is the assignment of a truth value, either T or F, to each propositional symbol.",
+    "id": 16,
+    "question": "Machine Learning is the superset that contains AI?",
+    "choices": ["A. True", "B. False"],
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "question": "The predicate logic for the statement 'Every cat is an animal' is: There exists X (cat(X) → animal(X))?",
+    "choices": ["A. True", "B. False"],
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "What rules of inference are used in this argument? 'All students in this science class have taken a course in physics' and 'Marry is a student in this class' imply the conclusion 'Marry has taken a course in physics.'",
+    "choices": [
+      "A. Universal instantiation",
+      "B. Universal generalization",
+      "C. Existential instantiation",
+      "D. Existential generalization",
+      "E. None of the previous"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "question": "In_____________ there is no way to access the components of an individual sentence?",
+    "choices": [
+      "A. Semantic network",
+      "B. Propositional calculus",
+      "C. Predicate calculus",
+      "D. Inference rules",
+      "E. None of the previous"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "What rules of inference are used in this argument? 'Jay is an awesome student. Jay is also a good dancer. Therefore, Jay is an awesome student and a good dancer.'",
+    "choices": [
+      "A. Conjunction",
+      "B. Modus ponens",
+      "C. Disjunctive syllogism",
+      "D. Simplification",
+      "E. None of the previous"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "The godfather of AI is __________?",
+    "choices": [
+      "A. Alan Turing",
+      "B. Tom Paterson",
+      "C. John McCarthy",
+      "D. Ada Lovely",
+      "E. None of the previous"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "question": "An argument is a sequence of statements that end with a conclusion?",
     "choices": ["A. True", "B. False"],
     "answer": "A"
   },
   {
-    "id": 10,
-    "question": "An argument is a sequence of statements that end with a conclusion.",
+    "id": 23,
+    "question": "Machine learning is similar to data mining as it also deals with the small amount of the data?",
+    "choices": ["A. True", "B. False"],
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "“John is out for a trip or it is not snowing” and “It is snowing or Smith is playing chess” imply that __________?",
+    "choices": [
+      "A. John is out for trip",
+      "B. Smith is playing chess",
+      "C. John is out for a trip and Smith is playing chess",
+      "D. John is out for a trip or Smith is playing chess",
+      "E. None of the previous"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "question": "Modern Machine learning models can be used for making various predictions, including Weather prediction, Stock market analysis, Disease prediction, etc?",
     "choices": ["A. True", "B. False"],
     "answer": "A"
   },
   {
-    "id": 11,
-    "question": "Which rule of inference is used in each of these arguments, \"If it is Thursday then the downtown will be crowded. It is Thursday. Thus, the downtown is crowded.\"",
+    "id": 26,
+    "question": "The predicate logic for the statement 'Any animal that has a feather is a bird' is: For all (X) (animal(X) ˄ has(X, feather) → bird(X))?",
+    "choices": ["A. True", "B. False"],
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "AI is about_________________?",
+    "choices": [
+      "A. Programming on machine with your own intelligence",
+      "B. Making a machine intelligent",
+      "C. Playing a game on computer",
+      "D. Putting your intelligence in machine",
+      "E. None of the previous"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "question": "Which rule of inference is used in each of these arguments, “If it is Thursday then the downtown will be crowded. It is Thursday. Thus, the downtown is crowded.”?",
     "choices": [
       "A. Modus tollens",
       "B. Modus ponens",
@@ -102,27 +276,27 @@
     "answer": "B"
   },
   {
-    "id": 12,
-    "question": "Which rule of inference is used in each of these arguments, \"If it rains today, the local office will be closed. The local office is not closed today. Thus, it did not rains today.\"",
+    "id": 29,
+    "question": "______________ requires no training, no massive amount of data and no guess work?",
     "choices": [
-      "A. Modus tollens",
-      "B. Modus ponens",
-      "C. Unit resolution",
-      "D. Inference rules",
+      "A. Behaviorism AI",
+      "B. Symbolic AI",
+      "C. Disabilities",
+      "D. Safety",
       "E. None of the previous"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "id": 13,
-    "question": "What rule of inference is used in this argument? \"If I go for a balanced diet, then I will be fit. If I will be fit, then I will remain healthy. Therefore, if I go for a balanced diet, then I will remain healthy.\"",
+    "id": 30,
+    "question": "__________ is a theory of learning which states that all behaviors are learned through interaction with the environment?",
     "choices": [
-      "A. Modus tollens",
-      "B. Modus ponens",
-      "C. Disjunctive syllogism",
-      "D. Hypothetical syllogism",
+      "A. Symbolism",
+      "B. Connectionism",
+      "C. Behaviorism",
+      "D. Learnability",
       "E. None of the previous"
     ],
-    "answer": "D"
+    "answer": "C"
   }
 ]
