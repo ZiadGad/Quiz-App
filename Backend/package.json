@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production node server.js"
+    "start:prod": "NODE_ENV=production node server.js",
+    "build": "echo 'Nothing to build'"
   },
   "author": "Ziad Gad",
   "license": "ISC",
@@ -14,9 +15,6 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "morgan": "^1.10.0"
-  },
-  "engines": {
-    "node": ">= 10.0.0"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
