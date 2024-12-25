@@ -24,6 +24,7 @@ const questionSchema = new mongoose.Schema({
     uppercase: true,
   },
 });
+questionSchema.index({ subj: 1 });
 
 questionSchema.pre('save', async function (next) {
   if (!this.isNew) return next();

@@ -1,4 +1,5 @@
 // const fs = require('fs');
+const APIFeatures = require('../utils/apiFeatures');
 const Question = require('../models/questionModel');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
@@ -7,7 +8,12 @@ const catchAsync = require('../utils/catchAsync');
 // const questions = JSON.parse(data);
 
 exports.getAll = catchAsync(async (req, res, next) => {
-  const questions = await Question.find();
+  const features = new APIFeatures(Question.find(), req.query)
+    .filter()
+    .sort()
+    .limitFields()
+    .paginate();
+  const questions = await features.query;
   res.status(200).json({
     status: 'success',
     results: questions.length,
