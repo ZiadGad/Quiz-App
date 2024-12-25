@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "subj": "ai",
     "question": "The premises (p ∧ q) ∨ r and r → s imply which of the conclusion?",
     "choices": [
       "A. p ∨ r",
@@ -9,10 +9,11 @@
       "D. q ∨ r",
       "E. None of the previous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "id": 1
   },
   {
-    "id": 2,
+    "subj": "ai",
     "question": "___________ means the ability to understand a language and use written and spoken language. People like poets, writers, have this category of intelligence?",
     "choices": [
       "A. Verbal / Linguistic Intelligence",
@@ -21,16 +22,18 @@
       "D. Bodily / Kinesthetic Intelligence",
       "E. Interpersonal / Social Intelligence"
     ],
-    "answer": "A"
+    "answer": "A",
+    "id": 2
   },
   {
-    "id": 3,
+    "subj": "ai",
     "question": "An interpretation of a set of propositions is the assignment of a truth value, either T or F, to each propositional symbol?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 3
   },
   {
-    "id": 4,
+    "subj": "ai",
     "question": "The Application(s) of AI is/are?",
     "choices": [
       "A. Gaming",
@@ -39,10 +42,11 @@
       "D. NLP",
       "E. All the previous"
     ],
-    "answer": "E"
+    "answer": "E",
+    "id": 4
   },
   {
-    "id": 5,
+    "subj": "ai",
     "question": "In propositional calculus a sentence is _________ if it holds under every interpretation?",
     "choices": [
       "A. satisfiable",
@@ -51,10 +55,11 @@
       "D. contradiction",
       "E. None of the previous"
     ],
-    "answer": "C"
+    "answer": "C",
+    "id": 5
   },
   {
-    "id": 6,
+    "subj": "ai",
     "question": "Clustering is an example of ___________?",
     "choices": [
       "A. unsupervised learning",
@@ -63,10 +68,11 @@
       "D. Connectionism",
       "E. None of the previous"
     ],
-    "answer": "A"
+    "answer": "A",
+    "id": 6
   },
   {
-    "id": 7,
+    "subj": "ai",
     "question": "What rules of inference are used in this argument? 'It is either colder than Himalaya today or the pollution is harmful. It is hotter than Himalaya today. Therefore, the pollution is harmful.'",
     "choices": [
       "A. Conjunction",
@@ -75,10 +81,11 @@
       "D. Hypothetical syllogism",
       "E. None of the previous"
     ],
-    "answer": "C"
+    "answer": "C",
+    "id": 7
   },
   {
-    "id": 8,
+    "subj": "ai",
     "question": "An AI agent perceives and acts upon the environment using ___________?",
     "choices": [
       "A. Sensors",
@@ -87,10 +94,11 @@
       "D. Both sensors and actuators",
       "E. None of the previous"
     ],
-    "answer": "D"
+    "answer": "D",
+    "id": 8
   },
   {
-    "id": 9,
+    "subj": "ai",
     "question": "A technique that was developed to determine whether a machine could or couldn't demonstrate the AI known as the_______________?",
     "choices": [
       "A. Turing Test",
@@ -99,22 +107,25 @@
       "D. Algorithm",
       "E. None of the previous"
     ],
-    "answer": "A"
+    "answer": "A",
+    "id": 9
   },
   {
-    "id": 10,
+    "subj": "ai",
     "question": "Watson is IBM's AI computer system capable of answering questions in natural language?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 10
   },
   {
-    "id": 11,
+    "subj": "ai",
     "question": "One of AI purposes is to use the power of computers to augment human thinking?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 11
   },
   {
-    "id": 12,
+    "subj": "ai",
     "question": "Systems that act and think rationally represent _______?",
     "choices": [
       "A. weak AI",
@@ -123,10 +134,11 @@
       "D. Connectionism",
       "E. None of the previous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "id": 12
   },
   {
-    "id": 13,
+    "subj": "ai",
     "question": "What rule of inference is used in this argument? 'If I go for a balanced diet, then I will be fit. If I will be fit, then I will remain healthy. Therefore, if I go for a balanced diet, then I will remain healthy.'",
     "choices": [
       "A. Modus tollens",
@@ -135,16 +147,18 @@
       "D. Hypothetical syllogism",
       "E. None of the previous"
     ],
-    "answer": "D"
+    "answer": "D",
+    "id": 13
   },
   {
-    "id": 14,
+    "subj": "ai",
     "question": "Rational agent is the agent that does the right thing (successful agent)?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 14
   },
   {
-    "id": 15,
+    "subj": "ai",
     "question": "Which rule of inference is used in each of these arguments, 'If it rains today, the local office will be closed. The local office is not closed today. Thus, it did not rain today.'",
     "choices": [
       "A. Modus tollens",
@@ -153,22 +167,25 @@
       "D. Inference rules",
       "E. None of the previous"
     ],
-    "answer": "A"
+    "answer": "A",
+    "id": 15
   },
   {
-    "id": 16,
+    "subj": "ai",
     "question": "Machine Learning is the superset that contains AI?",
     "choices": ["A. True", "B. False"],
-    "answer": "B"
+    "answer": "B",
+    "id": 16
   },
   {
-    "id": 17,
+    "subj": "ai",
     "question": "The predicate logic for the statement 'Every cat is an animal' is: There exists X (cat(X) → animal(X))?",
     "choices": ["A. True", "B. False"],
-    "answer": "B"
+    "answer": "B",
+    "id": 17
   },
   {
-    "id": 18,
+    "subj": "ai",
     "question": "What rules of inference are used in this argument? 'All students in this science class have taken a course in physics' and 'Marry is a student in this class' imply the conclusion 'Marry has taken a course in physics.'",
     "choices": [
       "A. Universal instantiation",
@@ -177,10 +194,11 @@
       "D. Existential generalization",
       "E. None of the previous"
     ],
-    "answer": "A"
+    "answer": "A",
+    "id": 18
   },
   {
-    "id": 19,
+    "subj": "ai",
     "question": "In_____________ there is no way to access the components of an individual sentence?",
     "choices": [
       "A. Semantic network",
@@ -189,10 +207,11 @@
       "D. Inference rules",
       "E. None of the previous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "id": 19
   },
   {
-    "id": 20,
+    "subj": "ai",
     "question": "What rules of inference are used in this argument? 'Jay is an awesome student. Jay is also a good dancer. Therefore, Jay is an awesome student and a good dancer.'",
     "choices": [
       "A. Conjunction",
@@ -201,10 +220,11 @@
       "D. Simplification",
       "E. None of the previous"
     ],
-    "answer": "A"
+    "answer": "A",
+    "id": 20
   },
   {
-    "id": 21,
+    "subj": "ai",
     "question": "The godfather of AI is __________?",
     "choices": [
       "A. Alan Turing",
@@ -213,22 +233,25 @@
       "D. Ada Lovely",
       "E. None of the previous"
     ],
-    "answer": "C"
+    "answer": "C",
+    "id": 21
   },
   {
-    "id": 22,
+    "subj": "ai",
     "question": "An argument is a sequence of statements that end with a conclusion?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 22
   },
   {
-    "id": 23,
+    "subj": "ai",
     "question": "Machine learning is similar to data mining as it also deals with the small amount of the data?",
     "choices": ["A. True", "B. False"],
-    "answer": "B"
+    "answer": "B",
+    "id": 23
   },
   {
-    "id": 24,
+    "subj": "ai",
     "question": "“John is out for a trip or it is not snowing” and “It is snowing or Smith is playing chess” imply that __________?",
     "choices": [
       "A. John is out for trip",
@@ -237,22 +260,25 @@
       "D. John is out for a trip or Smith is playing chess",
       "E. None of the previous"
     ],
-    "answer": "D"
+    "answer": "D",
+    "id": 24
   },
   {
-    "id": 25,
+    "subj": "ai",
     "question": "Modern Machine learning models can be used for making various predictions, including Weather prediction, Stock market analysis, Disease prediction, etc?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 25
   },
   {
-    "id": 26,
+    "subj": "ai",
     "question": "The predicate logic for the statement 'Any animal that has a feather is a bird' is: For all (X) (animal(X) ˄ has(X, feather) → bird(X))?",
     "choices": ["A. True", "B. False"],
-    "answer": "A"
+    "answer": "A",
+    "id": 26
   },
   {
-    "id": 27,
+    "subj": "ai",
     "question": "AI is about_________________?",
     "choices": [
       "A. Programming on machine with your own intelligence",
@@ -261,10 +287,11 @@
       "D. Putting your intelligence in machine",
       "E. None of the previous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "id": 27
   },
   {
-    "id": 28,
+    "subj": "ai",
     "question": "Which rule of inference is used in each of these arguments, “If it is Thursday then the downtown will be crowded. It is Thursday. Thus, the downtown is crowded.”?",
     "choices": [
       "A. Modus tollens",
@@ -273,10 +300,11 @@
       "D. Inference rules",
       "E. None of the previous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "id": 28
   },
   {
-    "id": 29,
+    "subj": "ai",
     "question": "______________ requires no training, no massive amount of data and no guess work?",
     "choices": [
       "A. Behaviorism AI",
@@ -285,10 +313,11 @@
       "D. Safety",
       "E. None of the previous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "id": 29
   },
   {
-    "id": 30,
+    "subj": "ai",
     "question": "__________ is a theory of learning which states that all behaviors are learned through interaction with the environment?",
     "choices": [
       "A. Symbolism",
@@ -297,6 +326,47 @@
       "D. Learnability",
       "E. None of the previous"
     ],
-    "answer": "C"
+    "answer": "C",
+    "id": 30
+  },
+  {
+    "subj": "ai",
+    "question": "___________ means the ability to understand a language and use written and spoken language. People like poets, writers, have this category of intelligence.",
+    "choices": [
+      "A. Verbal / Linguistic Intelligence",
+      "B. Logical / Mathematical Intelligence",
+      "C. Visual / Spatial Intelligence",
+      "D. Bodily / Kinesthetic Intelligence",
+      "E. Interpersonal / Social Intelligence"
+    ],
+    "answer": "A",
+    "id": 31
+  },
+  {
+    "subj": "ai",
+    "question": "Goal-driven search is most useful when the initial data are provided, and it is not clear what the goal is",
+    "choices": ["A. True", "B. False"],
+    "answer": "B",
+    "id": 32
+  },
+  {
+    "subj": "ai",
+    "question": "In Depth First Search algorithm the open list is a queue",
+    "choices": ["A. True", "B. False"],
+    "answer": "B",
+    "id": 33
+  },
+  {
+    "subj": "ai",
+    "question": "_____________is a labeled graph used to describe relations (including properties) of objects, concepts, situations, or actions.",
+    "choices": [
+      "A. Semantic network",
+      "B. Propositional calculus",
+      "C. Pedicate calculus",
+      "D. Inference rules",
+      "E. None of the previous"
+    ],
+    "answer": "A",
+    "id": 34
   }
 ]
